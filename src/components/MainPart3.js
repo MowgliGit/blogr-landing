@@ -4,7 +4,7 @@ function MainPart1() {
       <div className="layoutContainerThree">
         <div className="illustrationImgBox">
           <img
-            src="./images/illustration-laptop-desktop.svg"
+            src={`${process.env.PUBLIC_URL}/images/illustration-laptop-desktop.svg`}
             alt="editor desktop ilustartion"
             className="illustrationImg"
           />

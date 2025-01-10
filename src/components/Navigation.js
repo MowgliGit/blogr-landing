@@ -42,13 +42,13 @@ function Navigation({
       <button className="hamburgerMenu" onClick={toggleMenu}>
         {!isMenuOpen ? (
           <img
-            src="./images/icon-hamburger.svg"
+            src={`${process.env.PUBLIC_URL}/images/icon-hamburger.svg`}
             alt="hamburger menu"
             className="hamburgerMenuIcon"
           />
         ) : (
           <img
-            src="./images/icon-close.svg"
+            src={`${process.env.PUBLIC_URL}/images/icon-close.svg`}
             alt="hamburger menu"
             className="hamburgerMenuClose"
           />
@@ -68,7 +68,7 @@ function Navigation({
                   </a>
                   {!isMenuOpen ? (
                     <img
-                      src="./images/icon-arrow-light.svg"
+                      src={`${process.env.PUBLIC_URL}/images/icon-arrow-light.svg`}
                       alt="icon-nav-light"
                       className={`iconNav iconNavLight ${
                         isDropdownOpen && item.dropdown ? "iconNavRotate" : ""
@@ -77,7 +77,7 @@ function Navigation({
                     />
                   ) : (
                     <img
-                      src="./images/icon-arrow-dark.svg"
+                      src={`${process.env.PUBLIC_URL}/images/icon-arrow-dark.svg`}
                       alt="icon-nav-dark"
                       className={`iconNav iconNavDark ${
                         isDropdownOpen && item.dropdown ? "iconNavRotate" : ""

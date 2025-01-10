@@ -1,3 +1,4 @@
+import React from "react";
 function MainPart2() {
   return (
     <div className="container">
@@ -5,8 +6,8 @@ function MainPart2() {
         <div className="ilustrationBoxPhones">
           <img
             className="ilustrationPhones"
-            src="./images/illustration-phones.svg"
-            alt="illustration-phones"
+            src={`${process.env.PUBLIC_URL}/images/illustration-phones.svg`}
+            alt="Illustration Phones"
           />
         </div>
         <div className="paragraphBox paragraphBoxBlue">

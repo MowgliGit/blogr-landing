@@ -27,7 +27,7 @@ function MainPart1() {
         </div>
         <div className="illustrationImageBox">
           <img
-            src="./images/illustration-editor-desktop.svg"
+            src={`${process.env.PUBLIC_URL}/images/illustration-editor-desktop.svg`}
             alt="editor desktop ilustartion"
             className="illustrationImage "
           />

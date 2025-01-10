@@ -81,9 +81,11 @@ body {
   line-height: 1;
   font-weight: 400;
 }
+/*  */
+
 /* header */
 .header {
-  max-width: 1440px;
+  max-width: 140rem;
   margin: 0 auto;
   background-image: url("..//public/images/bg-pattern-intro-mobile.svg"),
     linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
@@ -280,7 +282,8 @@ img.iconNavRotate {
 }
 /* main part1 */
 .container {
-  max-width: 144rem;
+  max-width: 140rem;
+  margin: 0 auto;
 }
 .headingSecondary {
   font-size: 3.6rem;
@@ -295,6 +298,7 @@ img.iconNavRotate {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
   align-items: center;
+  justify-content: center;
 }
 .paragrapxBoxes:first-child {
   display: flex;
@@ -322,7 +326,7 @@ img.iconNavRotate {
 }
 /*  mainpart2*/
 .layoutContainerBlue {
-  background-image: url("..//public/images/bg-pattern-circles.svg"),
+  background-image: url("../public/images/bg-pattern-circles.svg"),
     linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
   background-size: cover;
   background-repeat: no-repeat;
@@ -330,6 +334,8 @@ img.iconNavRotate {
   height: 40rem;
   border-top-right-radius: 10rem;
   border-bottom-left-radius: 10rem;
+}
+.layoutContainerBlue {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5rem;
@@ -340,7 +346,9 @@ img.iconNavRotate {
 }
 .headingQuarternaryWhite,
 .paragraphWhite {
-  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%) !important;
+  z-index: 99999;
+  overflow: visible;
 }
 .paragraphBoxBlue {
   padding-top: 8rem;
