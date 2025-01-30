@@ -81,11 +81,15 @@ body {
   line-height: 1;
   font-weight: 400;
 }
+.App {
+  max-width: 155rem;
+  margin: 0 auto;
+}
 /*  */
 
 /* header */
 .header {
-  max-width: 140rem;
+  max-width: 155rem;
   margin: 0 auto;
   background-image: url("..//public/images/bg-pattern-intro-mobile.svg"),
     linear-gradient(hsl(13, 100%, 72%), hsl(353, 100%, 62%));
@@ -282,7 +286,7 @@ img.iconNavRotate {
 }
 /* main part1 */
 .container {
-  max-width: 140rem;
+  max-width: 150rem;
   margin: 0 auto;
 }
 .headingSecondary {
