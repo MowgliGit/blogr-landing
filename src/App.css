@@ -326,7 +326,8 @@ img.iconNavRotate {
   width: 120%;
   height: 100%;
   transform: translate(20rem, -5rem);
-  overflow: visible;
+  /* overflow: visible; */
+  overflow: clip;
 }
 /*  mainpart2*/
 .layoutContainerBlue {
@@ -352,7 +353,8 @@ img.iconNavRotate {
 .paragraphWhite {
   color: hsl(0, 0%, 100%) !important;
   z-index: 99999;
-  overflow: visible;
+  /* overflow: visible; */
+  overflow: clip;
 }
 .paragraphBoxBlue {
   padding-top: 8rem;
@@ -360,9 +362,10 @@ img.iconNavRotate {
 .ilustrationPhones {
   width: 100%;
   height: auto;
-  overflow: visible;
   transform: translate(0rem, -8rem);
   display: block;
+  /* overflow: visible; */
+  overflow: clip;
 }
 /* main part3 */
 .layoutContainerThree {

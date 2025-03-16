@@ -56,13 +56,15 @@
   .ilustrationPhones {
     width: 100%;
     object-fit: cover;
-    overflow: visible;
     transform: translate(0rem, -8rem);
+    /* overflow: visible; */
+    overflow: clip;
   }
   .illustrationImg {
     height: 85vh;
     left: -12rem;
-    overflow: visible;
+    /* overflow: visible; */
+    overflow: clip;
   }
   .layoutContainer:last-child {
     padding-top: 10rem;
@@ -89,7 +91,8 @@
     width: 120%;
     height: 100%;
     transform: translate(15rem, -5rem);
-    overflow: visible;
+    /* overflow: visible; */
+    overflow: clip;
   }
   .illustrationImg {
     width: 120%;
@@ -142,15 +145,17 @@
   }
   .ilustrationPhones {
     width: 100%;
-    overflow: visible;
     transform: translate(0rem, -6rem);
+    /* overflow: visible; */
+    overflow: clip;
   }
 
   .illustrationImage {
     width: 120%;
     height: 100%;
     transform: translate(10rem, -5rem);
-    overflow: visible;
+    /* overflow: visible; */
+    overflow: clip;
   }
   .illustrationImg {
     width: 130%;
@@ -354,7 +359,8 @@
     width: 100%;
     height: 100%;
     transform: translate(0rem, 0rem);
-    overflow: visible;
+    /* overflow: visible; */
+    overflow: clip;
   }
   .paragrapxBoxes:first-child,
   .paragrapxBoxes:last-child {
@@ -370,12 +376,14 @@
   }
   .ilustrationPhones {
     width: 100%;
-    overflow: visible;
     transform: translate(0rem, -20rem);
     display: block;
+    /* overflow: visible; */
+    overflow: clip;
   }
   .ilustrationBoxPhones {
-    overflow: visible;
+    /* overflow: visible; */
+    overflow: clip;
   }
   .paragraphBoxBlue {
     margin-top: -30rem;
