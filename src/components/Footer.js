@@ -73,11 +73,7 @@ function Footer() {
                 Newsletter
               </a>
             </li>
-            <li>
-              <a href="#" className="footerLink">
-                Linkedin
-              </a>
-            </li>
+
             <li>
               <a href="#" className="footerLink">
                 Careers
