@@ -13,7 +13,7 @@ function MainPart1() {
           <div className="paragraphBox">
             <h4 className="headingQuarternary">Free, open, simple</h4>
             <p className="paragraph ">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
               laudantium laboriosam nam deserunt sunt minima quidem cum tenetur?
               Maxime quidem commodi quod dolorum, debitis porro eos quaerat
               necessitatibus autem odio? Impeditlaudantium laboriosam nam
